@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <link rel="stylesheet" href="./practice.css" /> -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Main</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <a href="#" class="logo" data-aos="fade-up"
+        >Schoolinio <span>University</span></a
+      >
+      <div class="mobileMenuToggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+        <i style="display: none" class="fas fa-times"></i>
+      </div>
+      <ul class="nav">
+        <li>
+          <a onclick="toggleMenu()" data-aos="fade-down" href="#home">home</a>
+        </li>
+        <li>
+          <a onclick="toggleMenu()" data-aos="fade-down" href="#about">about</a>
+        </li>
+        <li>
+          <a onclick="toggleMenu()" data-aos="fade-down" href="#services"
+            >services</a
+          >
+        </li>
+        <li>
+          <a onclick="toggleMenu()" data-aos="fade-down" href="#benefits"
+            >benefits</a
+          >
+        </li>
+        <li>
+          <a onclick="toggleMenu()" data-aos="fade-down" href="#achievements"
+            >achievements</a
+          >
+        </li>
+        <li>
+          <a onclick="toggleMenu()" data-aos="fade-down" href="#workflow"
+            >workflow</a
+          >
+        </li>
+        <li>
+          <a onclick="toggleMenu()" data-aos="fade-down" href="#faq">f.A.Q</a>
+        </li>
+        <li>
+          <a onclick="toggleMenu()" data-aos="fade-down" href="#review"
+            >review</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="landing-page section" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="img-box" data-aos="fade-up">
+            <img src="[IMAGE-01]" alt="LANDING PAGE" />
+          </div>
+          <div class="title-box" data-aos="fade-down">
+            <span>Let's do it at home..</span>
+            <h2>
+              Schoolinio <br />
+              University
+            </h2>
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores, totam. <br />
+              Lorem, ipsum dolor.
+            </h4>
+            <a href="#" class="btn-1" data-aos="fade-up"
+              >Get started <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-section">
+      <div class="wave one"></div>
+    </div>
+    <div class="about-section section" id="about">
+      <div class="container">
+        <div data-aos="fade-down" class="row">
+          <div class="img-box">
+            <img src="[IMAGE-02]" alt="ABOUT-IMAGE" />
+          </div>
+          <div class="text-box">
+            <h2>About us</h2>
+            <h3>Why this services was built?</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
+              a assumenda optio delectus non repudiandae soluta? Explicabo nobis
+              eos amet.
+            </p>
+          </div>
+        </div>
+        <div data-aos="fade-down" class="row">
+          <div class="text-box">
+            <h3>Why should you use this service?</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
+              a assumenda optio delectus non repudiandae soluta? Explicabo nobis
+              eos amet.
+            </p>
+          </div>
+          <div class="img-box second">
+            <img src="[IMAGE-03]" alt="ANOTHER-ABOUT-IMAGE" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-section">
+      <div class="wave two"></div>
+    </div>
+    <div class="services-section section" id="services">
+      <div class="title-text">Our Services</div>
+      <div class="container">
+        <div data-aos="fade-left" class="services-item">
+          <div class="img-box">
+            <div class="fas fa-house"></div>
+          </div>
+          <div class="text-box">
+            <h2>Character Building</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium temporibus velit amet nesciunt eligendi consequatur ut
+              excepturi aliquam assumenda.
+            </p>
+          </div>
+          <a href="#" class="btn-1 width-full"
+            >Read more <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+        <div data-aos="fade-right" class="services-item">
+          <div class="img-box">
+            <div class="fas fa-chalkboard-user"></div>
+          </div>
+          <div class="text-box">
+            <h2>Teacher Visiting</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium temporibus velit amet nesciunt eligendi consequatur ut
+              excepturi aliquam assumenda. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <a href="#" class="btn-1 width-full"
+            >Read more <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+        <div data-aos="fade-down" class="services-item">
+          <div class="img-box">
+            <div class="fas fa-user-graduate"></div>
+          </div>
+          <div class="text-box">
+            <h2>Character Management</h2>
+            <p>
+              Lorem ipsum dolor sit amet Accusantium temporibus velit amet
+              nesciunt eligendi consequatur ut excepturi aliquam assumenda.
+            </p>
+          </div>
+          <a href="#" class="btn-1 width-full"
+            >Read more <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+        <div data-aos="fade-up" class="services-item">
+          <div class="img-box">
+            <div class="fas fa-user-gear"></div>
+          </div>
+          <div class="text-box">
+            <h2>Hybrid Learning</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <a href="#" class="btn-1 width-full"
+            >Read more <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+        <div data-aos="fade-left" class="services-item">
+          <div class="img-box">
+            <div class="fas fa-book-open-reader"></div>
+          </div>
+          <div class="text-box">
+            <h2>Personalized Learning</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium temporibus velit amet nesciunt eligendi consequatur ut
+              excepturi aliquam assumenda. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Rerum, repellendus?
+            </p>
+          </div>
+          <a href="#" class="btn-1 width-full"
+            >Read more <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+        <div data-aos="fade-right" class="services-item">
+          <div class="img-box">
+            <div class="fas fa-shuffle"></div>
+          </div>
+          <div class="text-box">
+            <h2>Flexible</h2>
+            <p>
+              excepturi aliquam assumenda. Lorem ipsum dolor sit amet. Lorem
+              ipsum dolor sit amet.
+            </p>
+          </div>
+          <a href="#" class="btn-1 width-full"
+            >Read more <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="wave-section"><div class="wave three"></div></div>
+    <div class="benefits-section section" id="benefits">
+      <div class="title-text second">Benefits</div>
+      <div class="container">
+        <div data-aos="fade-down" class="benefits-box">
+          <div class="title-box">
+            <div class="img-box">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="title">Developing talent interest</div>
+          </div>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odio
+            voluptas facere velit ut rem consectetur, provident illo sed
+            doloribus.</span
+          >
+        </div>
+        <div data-aos="fade-up" class="benefits-box">
+          <div class="title-box">
+            <div class="img-box">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="title">Psychological Approach</div>
+          </div>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odio
+            voluptas facere velit ut rem consectetur, provident illo sed Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+            eligendi? doloribus.</span
+          >
+        </div>
+        <div data-aos="fade-down" class="benefits-box">
+          <div class="title-box">
+            <div class="img-box">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="title">Professional Teachers</div>
+          </div>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odio
+            voluptas facere velit ut rem consectetur, provident illo sed Lorem
+            ipsum dolor sit amet. doloribus.</span
+          >
+        </div>
+        <div data-aos="fade-up" class="benefits-box">
+          <div class="title-box">
+            <div class="img-box">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="title">Flexilbe schedule</div>
+          </div>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odio
+            doloribus.</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="wave-section">
+      <div class="wave four"></div>
+    </div>
+    <div class="achievements-section section" id="achievements">
+      <div class="container">
+        <div class="title-text">Achievements</div>
+        <div class="row">
+          <div data-aos="fade-down" class="achievements-box">
+            <i class="fas fa-chalkboard-user"></i>
+            <h4>4,232</h4>
+            <h2>Teachers</h2>
+          </div>
+          <div data-aos="fade-down" class="achievements-box">
+            <i class="fas fa-chess-knight"></i>
+            <h4>3,444</h4>
+            <h2>Subjects</h2>
+          </div>
+          <div data-aos="fade-down" class="achievements-box">
+            <i class="fas fa-brain"></i>
+            <h4>1,500</h4>
+            <h2>Refrence</h2>
+          </div>
+          <div data-aos="fade-down" class="achievements-box">
+            <i class="fas fa-user-check"></i>
+            <h4>20,000</h4>
+            <h2>Active students</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-section">
+      <div class="wave five"></div>
+    </div>
+    <div class="workflow-section section" id="workflow">
+      <div class="container">
+        <div class="title-text">Workflow</div>
+        <div class="row">
+          <div class="workflow">
+            <div class="row">
+              <div data-aos="fade-right" class="workflow-item">
+                <div class="workflow-item-inner">
+                  <i class="icon">1</i>
+                  <span>Consultation and registration</span>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eius provident totam voluptas exercitationem, dolorum
+                    veritatis!
+                  </p>
+                </div>
+              </div>
+              <div data-aos="fade-right" class="workflow-item">
+                <div class="workflow-item-inner">
+                  <i class="icon">2</i>
+                  <span>Class preparation</span>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eius provident totam voluptas exercitationem, dolorum
+                    veritatis! Lorem, ipsum dolor.
+                  </p>
+                </div>
+              </div>
+              <div data-aos="fade-right" class="workflow-item">
+                <div class="workflow-item-inner">
+                  <i class="icon">3</i>
+                  <span>Class start</span>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    veritatis!
+                  </p>
+                </div>
+              </div>
+              <div data-aos="fade-right" class="workflow-item">
+                <div class="workflow-item-inner">
+                  <i class="icon">4</i>
+                  <span>Support and experience</span>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eius provident totam voluptas exercitationem, dolorum
+                    veritatis! Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-section">
+      <div class="wave six"></div>
+    </div>
+    <div class="faq-section section" id="faq">
+      <div class="title-text">F.A.Q Schoolinio</div>
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-left" class="item-box">
+            <div class="profile-box">
+              <i class="fas fa-user"></i>
+              <span>Johnny Bravo</span>
+            </div>
+            <div class="text-box">
+              <h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                minima?
+              </h2>
+              <span
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                inventore harum labore optio, officia, similique, doloribus ut
+                dolorem deleniti totam veritatis voluptate hic ullam
+                deserunt!</span
+              >
+            </div>
+          </div>
+          <div data-aos="fade-right" class="item-box">
+            <div class="profile-box">
+              <i class="fas fa-user"></i>
+              <span>Jonathan Bravo</span>
+            </div>
+            <div class="text-box">
+              <h2>
+                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Vero, minima?
+              </h2>
+              <span
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                inventore harum labore optio, officia, similique, doloribus ut
+                dolorem deleniti totam veritatis voluptate hic ullam Lorem ipsum
+                dolor sit. deserunt!</span
+              >
+            </div>
+          </div>
+          <div data-aos="fade-left" class="item-box">
+            <div class="profile-box">
+              <i class="fas fa-user"></i>
+              <span>Julia Bravo</span>
+            </div>
+            <div class="text-box">
+              <h2>minima?</h2>
+              <span
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                deserunt!</span
+              >
+            </div>
+          </div>
+          <div data-aos="fade-right" class="item-box">
+            <div class="profile-box">
+              <i class="fas fa-user"></i>
+              <span>Jessica Bravo</span>
+            </div>
+            <div class="text-box">
+              <h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                minima Lorem, ipsum ?
+              </h2>
+              <span
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                dolorem deleniti totam veritatis voluptate hic ullam
+                deserunt!</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <a href="#" class="btn-1"
+            >See more <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="wave-section">
+      <div class="wave seven"></div>
+    </div>
+    <div class="review-section section" id="review">
+      <div class="title-text second">Reviews</div>
+      <div class="container">
+        <div class="review">
+          <div class="row">
+            <div data-aos="fade-left" class="review-item">
+              <p>Experience</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: calc(97% - 14px)">
+                  <span>97%</span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-left" class="review-item">
+              <p>Teacher</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: calc(87% - 14px)">
+                  <span>87%</span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-left" class="review-item">
+              <p>Subject</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: calc(80% - 14px)">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-left" class="review-item">
+              <p>Cost</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: calc(99% - 14px)">
+                  <span>99%</span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-left" class="review-item">
+              <p>References</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: calc(83% - 14px)">
+                  <span>83%</span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-left" class="review-item">
+              <p>Monitoring</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: calc(81% - 14px)">
+                  <span>81%</span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-left" class="review-item">
+              <p>Flexible</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: calc(96% - 14px)">
+                  <span>96%</span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-left" class="review-item">
+              <p>Saving Time</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: calc(77% - 14px)">
+                  <span>77%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-section">
+      <div class="wave eight"></div>
+    </div>
+    <div class="footer-section section">
+      <div class="container">
+        <div class="row">
+          <div class="content-footer head-box">
+            <div class="title-footer head-title">
+              Schoolinio <span>University</span>
+            </div>
+            <div class="item-footer">
+              <span onclick="location.href='[LOCATION]'"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                excepturi. <br />
+                324511, Georgia - Tbilisi</span
+              >
+              <span>example@gmail.com</span>
+            </div>
+          </div>
+          <div class="content-footer little-box">
+            <div class="title-footer">About</div>
+            <div class="item-footer">
+              <span><i class="fas fa-caret-right"></i> Profile</span>
+              <span><i class="fas fa-caret-right"></i> Schoolinio</span>
+              <span><i class="fas fa-caret-right"></i> Tutoring</span>
+              <span><i class="fas fa-caret-right"></i> Tutoring online</span>
+              <span><i class="fas fa-caret-right"></i> BLOG</span>
+              <span><i class="fas fa-caret-right"></i> References</span>
+              <span><i class="fas fa-caret-right"></i> Certificate</span>
+              <span><i class="fas fa-caret-right"></i> Price structure</span>
+            </div>
+          </div>
+          <div class="content-footer little-box">
+            <div class="title-footer">Support</div>
+            <div class="item-footer">
+              <span><i class="fas fa-caret-right"></i> Consultation</span>
+              <span><i class="fas fa-caret-right"></i> Flexible</span>
+              <span><i class="fas fa-caret-right"></i> Services</span>
+              <span><i class="fas fa-caret-right"></i> Teachers</span>
+            </div>
+          </div>
+          <div class="content-footer little-box">
+            <div class="title-footer">Follow</div>
+            <div class="item-footer footer-link">
+              <span
+                ><i class="fab fa-facebook"></i><a href="#">Facebook</a></span
+              >
+              <span>
+                <i class="fab fa-instagram"></i>
+                <a href="#">Instagram </a>
+              </span>
+              <span>
+                <i class="fab fa-twitter"></i>
+                <a href="#">Twitter </a></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 - <a href="#"> DreamDevs. </a> All rights reserved.</p>
+    </div>
+  </body>
+  <script src="./practice.js" defer></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+</html>
